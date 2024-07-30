@@ -1,0 +1,38 @@
+{
+  "name": "private-chat-application",
+  "version": "1.0.0",
+  "description": "Full-stack NodeJs ExpressJs MongoDB Private chat application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhistiak3/private-chat-application.git"
+  },
+  "keywords": [
+    "expressjs",
+    "nodejs",
+    "mongodb",
+    "ejs"
+  ],
+  "author": "Istiak Ahammad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mhistiak3/private-chat-application/issues"
+  },
+  "homepage": "https://github.com/mhistiak3/private-chat-application#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-validator": "^7.1.0",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.1",
+    "multer": "^1.4.5-lts.1"
+  }
+}
