@@ -15,6 +15,10 @@ const inboxRouter = require("./routers/inboxRouter");
 // app object
 const app = express();
 
+// global variable
+global.appRoote = path.resolve(__dirname);
+
+
 // HACK: Database connection
 mongoose
   .connect(MONGODB_CONNECTION_URL)

@@ -17,7 +17,13 @@ const errorHandler = (err, req, res, next) => {
       title: "Error Page",
     });
   } else {
-    res.json(res.locals.error);
+    res.json({
+      errors: {
+        common: {
+          msg: res.locals.error,
+        },
+      },
+    });
   }
 };
 
