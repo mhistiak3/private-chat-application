@@ -546,7 +546,25 @@ input[type="submit"]:active {
   gap: 10px;
   margin: 0 auto;
 }
+.nothing {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-content: center;
+  color: rgba(255, 255, 255, 0.2);
+  font-size: 2.5rem;
+}
 
+.nothing img {
+  width: 100%;
+  max-width: 120px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .nothing {
+    display: none;
+  }
+}
 /* login related responsive styles */
 @media only screen and (max-width: 800px) {
   #login-container {
