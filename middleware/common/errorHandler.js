@@ -3,6 +3,7 @@ const { NODE_ENV } = require("../../config");
 
 // 404 not found Handler
 const notFoundHandler = (req, res, next) => {
+  res.locals.html = true;
   next(createError(404, "Your requested content was not found"));
 };
 

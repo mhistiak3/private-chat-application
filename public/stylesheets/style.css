@@ -13,9 +13,9 @@
   --tertiary: #1f222e;
   --dark: #0e0e12;
   /* --green: #52d794; */
-  --green: #3494E6;
+  --green: #3494e6;
   /* --blue: #00b3bd; */
-  --blue: #EC6EAD;
+  --blue: #ec6ead;
   --light: #fff;
   --red: indianred;
 }
@@ -32,7 +32,9 @@ html,
 body {
   height: 100%;
 }
-
+a {
+  cursor: pointer;
+}
 html {
   font-family: Arial, Helvetica, sans-serif;
   background: linear-gradient(to right, var(--green) 0%, var(--blue) 100%);
